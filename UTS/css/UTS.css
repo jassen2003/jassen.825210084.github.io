@@ -1,0 +1,892 @@
+* {padding: 0px; margin: 0px}
+
+.container {
+	width: 1360px; margin: auto;
+}
+
+body{
+	background: white;
+}
+
+menu{
+	width: 100%;
+	margin: auto;
+	background: white;
+	position: sticky; z-index: 1;
+	top: 0;
+}
+
+.kiri img{
+	float : left;
+	padding : 10px;
+}
+
+nav ul li {
+	float: left; list-style: none;
+	margin-top: 20px;
+}
+
+nav ul li a{
+	margin-right: 30px; text-decoration: none;
+	padding: 3px 15px; color: black;
+}
+
+nav ul li ul{
+	display: none;
+}
+
+nav ul li:hover > ul{
+	display:block;
+    background-color: white;
+    padding: 5px;	
+}
+
+nav{
+    height: 40px; line-height:40px;
+    padding-bottom: 38px;
+}
+
+
+nav ul li ul{
+	position : absolute;
+}
+
+nav ul li ul li{
+	float : none;
+	position : relative;
+}
+
+nav ul li a:hover{color : blue;}
+
+nav ul li:hover{background: white;}
+
+.kanan img {
+	width: 20px;
+	height: 20px;
+	overflow: hidden;
+	float: left;
+	margin-top: 29px;
+	margin-left : 150px;
+}
+
+.kanan h4{
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+.sosmed img{
+	width: 20px;
+	height: 20px;
+	overflow: hidden;
+	float: left;
+	margin-top: 29px;
+	margin-left: 10px;
+}
+
+.search1 img{
+	margin-left: 30px;
+	padding: 26px 37px 26px 37px;
+	background-color: red;
+	width: 28px;
+	height: 25px;
+}
+
+.picturebox {
+	background: #130f40;
+	position: relative;
+}
+
+.picturebox img{
+	width: 100%;
+	height : 500px;
+}
+
+.picturebox h1 {
+	position: absolute;
+	top: 30%;
+	left: 40%;
+	color : black;
+	font-size: 70px;
+}
+
+.picturebox p {
+	position: absolute;
+	bottom: 45%;
+	left: 27%;
+	color : black;
+	font-size: 40px;
+}
+
+.picturebox button{
+	position: absolute;
+	top: 70%;
+	left: 45%;
+    font-size: 20px;
+    color : white;
+	padding: 5px;
+	width : 150px;
+	height: 70px;
+	background-color: #30336b;
+	border-radius : 10%;
+	border : none;
+	cursor : pointer;
+	transition : opacity 0.5s , background-color 0.5s;
+}
+
+.picturebox button:hover{
+	background-color: #22a6b3;
+	opacity : 0.8;
+}
+
+.InputData1 {
+	width: 100%; margin: auto;
+	height: 120px;
+	background-color: #192a56;
+}
+
+.InputData1 form {
+	padding-top: 20px;
+	float: left;
+	margin-left: 5%;
+	
+}
+
+.InputData1 label{
+	display: inline-block;
+	line-height: 70px;
+	font-size : 25px;
+	color : white;
+	text-decoration: bold;
+}
+
+.InputData1 form input{
+	width: 200px;
+	padding: 10px;
+	background: #130f40;
+	font-size: 20px;
+	line-height: 20px;
+	margin-left: 10px;
+	color: white; border-color: white;
+	border-radius: 7px; 
+	
+}
+
+.InputData1 select {
+	width: 200px; font-size: 20px;
+	line-height: 20px; margin-left: 10px;
+	padding: 10px; border-radius:4px;
+	background: #130f40; color: white;
+	border-color: white; border-size: 1px;
+}
+
+.InputData1 button{
+	width: 150px; font-size: 20px;
+	height: 50px; color: white;
+	background-color: #eb4d4b;
+	padding: 10px; font-weight: bold;
+	border-radius: 8px;
+	margin-left: 10px;
+	cursor: pointer;
+	transition : background-color 1s;
+}
+
+.InputData1 button:hover{
+	background-color : #9c88ff;
+}
+
+
+.Destinasi{
+	width : 100%;
+	height: 150px;
+	overflow: hidden;
+	float: left;
+	text-align: center;
+	margin-top: 80px;
+}
+
+
+.Destinasi p{
+	width: 400px;
+	margin-top: 10px;
+	margin-left: 470px;
+	font-size: 17px;
+}
+
+.destinasiWisata {
+	width : 100%;
+	float: left;
+}
+
+.foto img {
+	width : 350px; height: 200px;
+	margin-left: 30px;
+}
+
+.foto {
+	width: 400px;
+	height: 250px;
+	float: left;
+	margin: 15px;
+}
+
+
+.foto {position: relative;}
+
+.foto .nomor {
+	position: absolute;
+	width : 80px;
+	height: auto;
+	background-color: red;
+	border-radius: 25px;
+	text-align: center;
+	bottom : 25%;
+	left: 25%;
+	color: white; padding: 6px;
+}
+
+.foto p {
+	margin-left: 30px;
+}
+
+
+.foto .nomor1 {
+	position: absolute;
+	width : 80px;
+	height: auto;
+	background-color: blueviolet;
+	border-radius: 25px;
+	text-align: center;
+	top : 5%;
+	left: 10%;
+	color: white; padding: 6px;
+}
+
+
+
+.foto .judul {
+	position: absolute;
+	width : 100px;
+	height: auto;
+	border-radius: 100px;
+	text-align: center;
+	bottom : 27%;
+	left: 4%;
+	color: white; 
+}
+
+.foto  a{
+    font-size: 20px;
+    margin-left: 0px;
+	color : black;
+}
+
+.foto  p{
+    font-size: 20px;
+    margin-left: 30px;
+}
+.foto  p1{
+    font-size: 20px;
+    margin-left: 30px;
+}
+.foto a:hover {
+	color: blueviolet;
+
+}
+.InputData2 {
+	width: 100%; margin: auto;
+	height: 80px;
+	background-color: #130f40;
+}
+
+.InputData2 form {
+	float: left;
+	margin-left: 5%;
+	
+}
+
+.InputData2 label{
+	display: inline-block;
+	line-height: 70px;
+	font-size : 25px;
+	color : white;
+	text-decoration: bold;
+}
+
+.InputData2 form input{
+	width: 200px;
+	padding: 10px;
+	background: #130f40;
+	font-size: 20px;
+	line-height: 20px;
+	margin-left: 10px;
+	color: white; border-color: white;
+	border-radius: 7px; 
+	
+}
+
+.InputData2 select {
+	width: 200px; font-size: 20px;
+	line-height: 20px; margin-left: 10px;
+	padding: 10px; border-radius:4px;
+	background: #130f40; color: white;
+	border-color: white; border-size: 1px;
+}
+
+.InputData2 button{
+	width: 150px; font-size: 20px;
+	height: 50px; color: white;
+	background-color: #eb4d4b;
+	padding: 10px; font-weight: bold;
+	border-radius: 8px;
+	margin-left: 10px;
+	cursor: pointer;
+	transition : background-color 1s;
+}
+
+.InputData2 button:hover{
+	background-color : blue;
+}
+
+
+
+.kumpulanfoto button{
+	margin-bottom :70px;
+	position: relative;
+	top: 40%;
+	left: 45%;
+    font-size: 20px;
+    color : white;
+	padding: 5px;
+	width : 150px;
+	height: 70px;
+	background-color: red;
+	border-radius : 10%;
+	border : none;
+	cursor : pointer;
+	transition : opacity 0.5s , background-color 0.5s;
+}
+
+.kumpulanfoto button:hover{
+	background-color: blue;
+	opacity : 0.8;
+}
+
+.picturebox2 {
+	background: #130f40;
+	position: relative;
+}
+
+.picturebox2 img{
+	width: 100%;
+	height : auto;
+}
+
+.picturebox2 a img {
+	position: absolute;
+	width: 100px;
+	height : 100px;
+	top: 50%;
+	left: 47%;
+}
+.picturebox2 h1 {
+	position: absolute;
+	top: 30%;
+	left: 37%;
+	color : white;
+	font-size: 70px;
+}
+
+
+.baris img{float: left; width: 400px; height: 300px; margin-top: 200px; margin-right: 60px;margin-bottom: 30px;}
+.baris h2{padding-top: 10px; padding-bottom: 10px;}
+.baris p{margin-top: 10px; margin-bottom: 10px;}
+.baris .satu{width: 400px; height: 700px;overflow: hidden; float: left; text-align: justify; margin-right: 50px;margin-left: 25px;}
+.baris .satu h2{margin-left : 80px;margin-top: 10px; padding-bottom: 10px;float: middle;}
+.baris .satu  p{padding-top: 10px; padding-bottom: 10px;}
+.baris .dua{width: 400px; height: 700px;overflow: hidden; float: left; text-align: justify; margin-right: 50px;}
+.baris .dua h2{margin-left : 80px;}
+.baris .dua  p{padding-top: 10px; padding-bottom: 10px;}
+.baris .tiga{width: 400px; height: 700px;overflow: hidden; float: left; text-align: justify;margin-right: 25px;}
+.baris .tiga h2{margin-left : 80px;}
+.baris .tiga  p{padding-top: 10px; padding-bottom: 10px;}
+
+
+.baris .dua2{width: 400px; height: 500px;overflow: hidden; float: middle; text-align: justify;}
+
+.baris .dua2 img {width: 200px; height: 200px; margin: 15px 0 0 35px; float: middle; border-radius: 50%; margin-right: 400px; margin-left: 150px; margin-top : 200px; margin-bottom: 50px;}
+.baris .dua2 h2{padding-left : 120px; margin-top: 20px;}
+.baris .dua2  p{padding-left: 100px; padding-top: 10px; padding-bottom: 10px; text-align: center;}
+.baris .dua2 a {padding-left: 200px;}
+
+
+.container2 header h2{padding-top: 50px; text-align: center; font-size: 50px;}
+
+.baris2 img{float: left; width: 400px; height: 200px; margin-top: 100px; margin-right: 60px;margin-bottom: 3px;}
+.baris2 h2{padding-top: 10px; padding-bottom: 10px;}
+.baris2 p{margin-top: 10px; margin-bottom: 10px;}
+.baris2 .satu{width: 400px; height: 400px;overflow: hidden; float: left; text-align: justify; margin-right: 50px;margin-left: 25px;}
+.baris2 .satu h2{margin-left : 80px;margin-top: 10px; padding-bottom: 10px;float: middle;}
+.baris2 .satu  p{padding-top: 10px; padding-bottom: 10px;}
+.baris2 .dua{width: 400px; height: 400px;overflow: hidden; float: left; text-align: justify; margin-right: 50px;}
+.baris2 .dua h2{margin-left : 80px;}
+.baris2 .dua  p{padding-top: 10px; padding-bottom: 10px;}
+.baris2 .tiga{width: 400px; height: 400px;overflow: hidden; float: left; text-align: justify;margin-right: 25px;}
+.baris2 .tiga h2{margin-left : 80px;}
+.baris2 .tiga  p{padding-top: 10px; padding-bottom: 10px;}
+
+
+.Bagian_Subscribe {
+    padding-top: 60px;
+    padding-bottom: 90px;
+    background-color: darkblue;
+    margin-top: 5px;
+    margin-bottom: 100px;
+	width: 1360px;
+	
+}
+
+.Bagian_Subscribe .Bagian_Subscribe_Our_Newsletter_1 label{
+    position: relative;
+    margin-top: 25px;
+    margin-left: 35px;
+    font-size: 18px;
+    color: white;
+    padding-bottom: 4px;
+}
+
+.Bagian_Subscribe .Bagian_Subscribe_Our_Newsletter_2 label{
+    position: absolute;
+    margin-left: 35px;
+    font-size: 14px;
+    font-family: monospace;
+    text-align: justify;
+    padding-right: 600px;
+    padding-top: 4px;
+	color: white;
+}
+
+.Bagian_Subscribe .TextBox {
+    position: relative;
+    float: right;
+    margin-top: -10px;
+	
+}
+
+.Bagian_Subscribe .TextBox input{
+    font-size: 18px;
+    height: 40px;
+	margin-right: 350px;
+    width: 300px;
+    border-radius: 5px;
+    border-color: black;
+    background-color: white;
+    text-align: left;
+	float: right;
+}
+
+.Bagian_Subscribe .Tombol {
+    position: absolute;
+    margin-left: 970px;
+    margin-top: -10px;
+	float : right;
+
+}
+
+.Bagian_Subscribe .Tombol button{
+    height: 45px;
+    width: 120px;
+    background-color: maroon;
+    border-radius: 5px;
+    border-color: red;
+    color: white;
+    font-size: 18px;
+    font-family: fantasy;
+}
+
+.Bagian_Subscribe .Tombol button:hover{
+    background-color: aqua;
+    border-color: aquamarine;
+    color: burlywood;
+}
+
+.Bagian_Popular_Places{
+    margin-top: 1px;
+    text-align: center;
+    background-color: white;
+    height: 100px;
+}
+
+.Bagian_Popular_Places2 h1{
+    padding-bottom: 15px;
+    padding-top: 1px;
+	font-size: 20px;
+}
+
+.Bagian_Popular_Places2 p{
+    margin-left: 300px;
+    margin-right: 270px;
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+
+
+
+.Bagian_Popular_Places2{
+    margin-top: 10px;
+    text-align: center;
+    background-color: white;
+    height: 200px;
+}
+
+.Bagian_Popular_Places2 h1{
+    padding-bottom: 15px;
+    padding-top: 100px;
+}
+
+.Bagian_Popular_Places2 p{
+    margin-left: 300px;
+    margin-right: 270px;
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+
+.Kumpulan_Foto_Popular {
+    margin-top: 150px;
+}
+
+.Kumpulan_Foto_Popular .Bagian_Foto{
+    border-color: black;
+    background-color: black;
+    border-radius: 15px;
+}
+
+.Kumpulan_Foto_Popular .Bagian_Foto img{
+   width : 350px; height: 200px;
+	margin-left: 30px;
+}
+
+.Kumpulan_Foto_Popular .Judul_Foto{
+    font-size: 20px;
+    margin-bottom: 200px;
+    margin-left: 15px;
+}
+
+.Kumpulan_Foto_Popular .Deskripsi{
+    font-size: 14px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: grey;
+    margin-left: 15px;
+}
+
+.Kumpulan_Foto_Popular .Harga{
+    position: absolute;
+    color: black;
+    background-color: aqua;
+    border-radius: 15px;
+    margin-bottom: 2px;
+    margin-right: 220px;
+    margin-left: 20px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.Kumpulan_Foto_Popular .Harga a{
+    text-decoration: none;
+    color: black; 
+}
+
+
+.Kumpulan_Foto_Popular .Durasi img{
+    position: absolute;
+    height: 15px;
+    width: auto;
+    margin-top: -71px;
+    margin-left: 230px;
+}
+
+.Kumpulan_Foto_Popular .Durasi a{
+    position: absolute;
+    text-decoration: none;
+    color: grey;
+    margin-top: -70px;
+    font-size: 12px;
+    margin-left: 255px;
+}
+
+.Tombol_More_Places{
+    margin-left: 400px;
+}
+
+.Tombol_More_Places button{
+    margin-top: 100px;
+    border-radius: 5px;
+    background-color: #FC427B;
+    font-size: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: black;
+    border-color: red;
+}
+
+.Tombol_More_Places button:hover{
+    background-color: aquamarine;
+    border-color: blueviolet;
+}
+
+.Bagian_Enjoy_Video img{
+    height: auto;
+    width: 1360px;
+    margin-top: 100px;
+}
+
+.Bagian_Enjoy_Video .Enjoy_Video{
+    margin-top: 350px;
+	position: absolute;
+    margin-left: 550px;
+}
+
+.Bagian_Enjoy_Video .Enjoy_Video h1{
+    font-family: monospace;
+    font-size: 48px;
+    color: black;
+}
+
+
+.Bagian_Enjoy_Video .Tombol_Play{
+    margin-top: -50px;
+    margin-left: 640px;
+    margin-bottom: 100px;
+}
+
+.Bagian_Enjoy_Video .Tombol_Play img{
+    height: 100px;
+    width: 100px;
+	position: absolute;
+}
+
+.Bagian_3_Bagian_Guide .Bagian_Logo{
+    width: 225px;
+    float: left;
+	margin-top: 200px;
+    margin-left: 145px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+}
+
+.Bagian_3_Bagian_Guide .Bagian_Logo img{
+    width: 100px;
+	height: 100px;
+    margin-left: 65px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.Bagian_3_Bagian_Guide .Judul_Logo{
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.Bagian_3_Bagian_Guide .Deskripsi_Logo{
+    text-align: center;
+    font-size: 12px;
+}
+
+
+.Testimoni{
+    background-color: white;
+    margin-top: 70px
+	
+}
+
+.Testimoni img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    float: center;
+    margin-top: 25px;
+    margin-left: 630px;
+    margin-bottom: 20px;
+}
+
+.Testimoni .Komentar p{
+    text-align: center;
+    margin-left: 250px;
+    margin-right: 250px;
+    color: black;
+    font-size: 18px;
+    margin-bottom: 10px;
+   
+}
+
+.Testimoni .Orang_Yang_Testimoni p{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    padding-bottom: 150px;
+}
+.Bagian_Recent_Trips  {
+	width : 300px; 
+	height: 300px;
+}
+
+
+.Bagian_Recent_Trips h1{
+	
+    text-align: center;
+    font-size: 48px;
+    margin-top: 250px;
+    margin-bottom: 40px;
+	padding-right : 20px;
+}
+
+.Bagian_Recent_Trips .Bagian_Foto .Tanggal{
+	width : 300px;
+    color: black;
+    font-size: 14px;
+    margin-bottom: 10px;
+	width: 300px;
+}
+
+.Bagian_Recent_Trips .Deskripsi a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    margin-bottom: 100px;
+	width: 300px;
+}
+
+.Bagian_Recent_Trips{
+    height: 100px;
+    width: 1360px;
+}
+
+.Bagian_Recent_Trips .Deskripsi a:hover{
+    color: red;
+}
+
+.Footer_Kiri1{
+	margin-top: 4000px;
+    background-color:darkblue;
+    height: 500px;
+}
+
+.Footer_Kiri1 .Logo_Travelo img{
+    margin-top: 25px;
+    height: 50px;
+    width: auto;
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+
+.Footer_Kiri1 .Alamat p{
+    color: black;
+    text-align: left;
+    margin-left: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.Footer_Kiri1 .Logo_Social img{
+    height: 15px;
+    width: 15px;
+    margin-left: 25px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.Footer_Kiri1 .Company{
+    margin-left: 400px;
+    margin-top: -355px;
+}
+
+.Footer_Kiri1 .Company h1{
+  
+    color: black;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.Footer_Kiri1 .Company .Bagian_4_Baris a{
+    text-decoration: none;
+    color: black;
+}
+
+.Footer_Kiri1 .Company .Bagian_4_Baris a:hover{
+    color: #ff3f34;
+}
+
+.Footer_Kiri1 .Bagian_Footer_Popular_Destination{
+    margin-left: 600px;
+    margin-top: -215px;
+}
+
+.Footer_Kiri1 .Bagian_Footer_Popular_Destination h1{
+    font-size: 18px;
+    color: black;
+    margin-bottom: 50px;
+}
+
+.Footer_Kiri1 .Bagian_Footer_Popular_Destination .Negara_Destinasi_1 a{
+    color: black;
+    text-decoration: none;
+}
+
+.Footer_Kiri1 .Bagian_Footer_Popular_Destination .Negara_Destinasi_2{
+    margin-left: 200px;
+    margin-top: -145px;
+}
+
+.Footer_Kiri1 .Bagian_Footer_Popular_Destination .Negara_Destinasi_2 a{
+    color: black;
+    text-decoration: none;
+}
+
+.Footer_Kiri1 .Bagian_Footer_Popular_Destination .Negara_Destinasi_1 a:hover{
+    color: #ff3f34;
+}
+
+.Footer_Kiri1 .Bagian_Footer_Popular_Destination .Negara_Destinasi_2 a:hover{
+    color: #ff3f34;
+}
+
+.Footer_Kiri1 .Bagian_Footer_Instagram {
+    margin-left: 1000px;
+    margin-top: -215px;
+}
+
+.Footer_Kiri1 .Bagian_Footer_Instagram h1{
+    font-size: 20px;
+    margin-bottom: 45px;
+    color: black;
+}
+
+.Footer_Kiri1 .Bagian_Footer_Instagram .Bagian_Footer_Foto img{
+    height: 90px;
+    width: 90px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.Footer_Kiri1 .Bagian_Footer_Copyright{
+    margin-top: 50px;
+    border-top: 20px;
+}
+
+.Footer_Kiri1 .Bagian_Footer_Copyright p{
+    text-align: center;
+    color: black;
+    
+}
+
+.Footer_Kiri1 .Bagian_Footer_Copyright a{
+    color: red;
+    text-decoration: none;
+}
+

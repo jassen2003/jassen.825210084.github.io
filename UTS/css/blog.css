@@ -1,0 +1,399 @@
+* {margin: 0; padding: 0;
+}
+
+.container{
+    width: 1360px;
+    margin: auto;
+}
+
+
+.Bagian_Slider img{
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.Bagian_Slider h1{
+    color: white;
+    position: absolute;
+    margin-top: -480px;
+    font-size: 52px;
+    margin-left: 650px;
+}
+
+.Bagian_Slider p{
+    position: absolute;
+    margin-top: -400px;
+    color: white;
+    font-size: 20px;
+    
+    margin-left: 530px;
+}
+
+.Bagian_Kiri_Blog{
+    width: 600px;
+	margin-left: 100px;
+}
+
+.Bagian_Kiri_Blog img{
+    width: 600px;
+    height: 300px;
+    margin-bottom: 20px;
+	margin-left: 25px;
+}
+
+.Bagian_Kiri_Blog .Tanggal{
+    height: 110px;
+    width: 120px;
+    font-size: 40px;
+    position: absolute;
+    margin-top: -120px;
+    margin-left: 60px;
+    background-color: crimson;
+    font-family: fantasy;
+    text-align: center;
+    border-radius: 5%;
+}
+
+.Bagian_Kiri_Blog .Tanggal a{
+    color: white;
+    text-decoration: none;
+}
+
+.Bagian_Kiri_Blog .Tanggal:hover{
+    background-color: transparent;
+}
+
+.Bagian_Kiri_Blog .Tanggal a:hover{
+    color: crimson;
+}
+
+.Bagian_Kiri_Blog .Judul{
+    font-size: 20px;
+    font-family: cursive;
+    margin-bottom: 20px;
+    margin-left: 25px;
+}
+
+.Bagian_Kiri_Blog .Judul a{
+    text-decoration: none;
+    color: black;
+}
+
+.Bagian_Kiri_Blog .Judul a:hover{
+    color: crimson;
+}
+
+.Bagian_Kiri_Blog .Deskripsi{
+    margin-left: 25px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.Bagian_Kiri_Blog .Deskripsi p{
+    color: grey;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+}
+
+.Bagian_Kiri_Blog .Info .Jenis img{
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+    margin-bottom: 65px;
+}
+
+.Bagian_Kiri_Blog .Info .Jenis a{
+    margin-left: 15px;
+    margin-top: 1px;
+    text-decoration: none;
+    color: grey;
+    position: absolute;
+}
+
+.Bagian_Kiri_Blog .Info .Jenis a:hover{
+    color: crimson;
+}
+
+.Bagian_Kiri_Blog .Info .Comment img{
+    width: 20px;
+    height: 20px;
+    margin-left: 200px;
+    margin-top: -88px;
+    position: absolute;
+}
+
+.Bagian_Kiri_Blog .Info .Comment a{
+    margin-left: 230px;
+    margin-top: -88px;
+    text-decoration: none;
+    color: grey;
+    position: absolute;
+}
+
+.Bagian_Kiri_Blog .Info .Comment a:hover{
+    color: crimson;
+}
+
+.Bagian_Kiri_Blog .Info .Garis p{
+    margin-left: 180px;
+    margin-top: -94px;
+    position: absolute;
+    font-size: 24px;
+}
+
+.Bagian_Kiri_Blog{
+    border-radius: 0px;
+    border-color: grey;
+}
+
+.Bagian_Kanan{
+    width: 320px;
+    margin-left: 900px;
+    margin-top: -2580px;
+    margin-bottom: 700px;
+}
+
+.Bagian_Kanan .Bagian_Search_Keyword{
+    background-color: #f1f2f6;
+}
+
+.Bagian_Kanan .Bagian_Search_Keyword .Bagian_Keyword input{
+    margin-left: 30px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: sans-serif;
+    border-radius: 0px;
+}
+
+.Bagian_Kanan .Bagian_Search_Keyword .Bagian_Search button{
+    margin-left: 30px;
+    font-size: 16px;
+    padding-left: 84px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 84px;
+    margin-top: -50px;
+    margin-bottom: 20px;
+    border-radius: 0px;
+    font-family: sans-serif;
+    background-color: aquamarine;
+    border-color: aquamarine;
+}
+
+.Bagian_Kanan .Bagian_Search_Keyword .Bagian_Search button a{
+    color: white;
+    text-decoration: none;
+}
+
+.Bagian_Kanan .Bagian_Search_Keyword .Bagian_Search button:hover{
+    background-color: crimson;
+    border-color: crimson;
+}
+
+.Bagian_Kanan .Bagian_Category{
+    background-color: #f1f2f6;    
+    margin-top: 20px;
+}
+
+.Bagian_Kanan .Bagian_Category .Bagian_Header_Category{
+    margin-left: 20px;
+}
+
+.Bagian_Kanan .Bagian_Category .Bagian_Header_Category h2{
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 15px;
+    margin-bottom: 40px;
+}
+
+.Bagian_Kanan .Bagian_Category .Bagian_Pilihan_Category{
+    margin-left: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.Bagian_Kanan .Bagian_Category .Bagian_Pilihan_Category a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-family: cursive;
+}
+
+.Bagian_Kanan .Bagian_Category .Bagian_Pilihan_Category a:hover{
+    color: crimson;
+}
+
+.Bagian_Kanan .Bagian_Recent_Post{
+    background-color: #f1f2f6;
+    margin-top: 20px;
+}
+
+.Bagian_Kanan .Bagian_Recent_Post .Recent_Post h2{
+    padding-top: 20px;
+    margin-left: 25px;
+    margin-bottom: 30px;
+}
+
+.Bagian_Kanan .Bagian_Recent_Post .Bagian_Isi_Post img{
+    height: 75px;
+    width: 75px;
+    margin-left: 25px;
+    margin-bottom: 50px;
+}
+
+.Bagian_Kanan .Bagian_Recent_Post .Bagian_Isi_Post .Bagian_Judul_Post{
+    margin-left: 110px;
+}
+
+.Bagian_Kanan .Bagian_Recent_Post .Bagian_Isi_Post .Bagian_Judul_Post a{
+    margin-top: -115px;
+    position: absolute;
+    text-decoration: none;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+.Bagian_Kanan .Bagian_Recent_Post .Bagian_Isi_Post .Bagian_Judul_Post a:hover{
+    color: crimson;
+}
+
+.Bagian_Kanan .Bagian_Recent_Post .Bagian_Isi_Post .Tanggal_Post{
+    margin-left: 110px;
+}
+
+.Bagian_Kanan .Bagian_Recent_Post .Bagian_Isi_Post .Tanggal_Post p{
+    position: absolute;
+    margin-top: -90px;
+    color: grey;
+    font-family: cursive;
+    font-size: 14px;
+}
+
+.Bagian_Kanan .Bagian_Tag_Clouds{
+    margin-top: 20px;
+    background-color: #f1f2f6;
+    padding-bottom: 10px;
+}
+
+.Bagian_Kanan .Bagian_Tag_Clouds h2{
+    margin-left: 25px;
+    padding-top: 20px;
+    margin-bottom: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Bagian_Kanan .Menu_Pilihan{
+    margin-left: 25px;
+    padding-bottom: 10px;
+}
+
+.Bagian_Kanan .Menu_Pilihan button{
+    font-size: 18px;
+    font-family: fantasy;
+    margin-right: 5px;
+    text-decoration: none;
+    border-color: seashell;
+    background-color: black;
+    border-radius: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.Bagian_Kanan .Menu_Pilihan a{
+    color: grey;
+    text-decoration: none;
+}
+
+.Bagian_Kanan .Menu_Pilihan button:hover{
+    background-color: crimson;
+}
+
+.Bagian_Kanan .Menu_Pilihan a:hover{
+    color: white;
+}
+
+.Bagian_Kanan .Bagian_Instagram_Feeds{
+    background-color: #f1f2f6;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.Bagian_Kanan .Bagian_Instagram_Feeds h2{
+    margin-left: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 24px;
+}
+
+.Bagian_Kanan .Bagian_Instagram_Feeds .Foto_Instagram_Feeds img{
+    height: 75px;
+    width: 75px;
+    margin-left: 25px;
+    margin-right: -10px;
+}
+
+.Bagian_Kanan .Bagian_News_Letter{
+    margin-top: 25px;
+    background-color: #f1f2f6;
+}
+
+.Bagian_Kanan .Bagian_News_Letter .Newsletter h2{
+    margin-left: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 24px;
+}
+
+.Bagian_Kanan .Bagian_News_Letter .Bagian_Newsletter_Email{
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+
+.Bagian_Kanan .Bagian_News_Letter .Bagian_Newsletter_Email input{
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 22px;
+    font-family: monospace;
+}
+
+.Bagian_Kanan .Bagian_News_Letter .Bagian_Subscribe{
+    padding-bottom: 10px;
+    margin-left: 25px;
+}
+
+.Bagian_Kanan .Bagian_News_Letter .Bagian_Subscribe button{
+    font-size: 24px;
+    font-family: fantasy;
+    padding-left: 65px;
+    padding-right: 65px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 0px;
+    background-color: aqua;
+    border-color: aqua;
+    margin-bottom: 10px;
+}
+
+.Bagian_Kanan .Bagian_News_Letter .Bagian_Subscribe button:hover{
+    background-color: crimson;
+    border-color: crimson;
+}
+
+.Bagian_Kanan .Bagian_News_Letter .Bagian_Subscribe a{
+    text-decoration: none;
+    color: white;
+}
+
+.Footer_Kiri1{
+	margin-top: 40px;
+    background-color:darkblue;
+    height: 500px;
+}

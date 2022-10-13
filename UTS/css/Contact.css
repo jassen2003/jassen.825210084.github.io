@@ -1,0 +1,182 @@
+* {margin: 0; padding: 0;
+}
+
+.container{
+    width: 1360px;
+    margin: auto;
+}
+
+.Bagian_Slider_Contact img{
+    height: 657px;
+}
+
+.Bagian_Slider_Contact h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 60px;
+    margin-top: -370px;
+    margin-left: 400px;
+    position: absolute;
+    color: white;
+}
+
+.Bagian_Slider_Contact p{
+    font-family: cursive;
+    font-size: 28px;
+    color: white;
+    margin-top: -280px;
+    margin-left: 200px;
+    position: absolute;
+}
+
+.Bagian_Peta iframe{
+    width: 900px;
+    height: 500px;
+    margin-left: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.Bagian_Get_In_Touch h1{
+    font-family: monospace;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.Bagian_Get_In_Touch .Bagian_Keterangan textarea{
+    font-size: 16px;
+}
+
+.Bagian_Get_In_Touch .Bagian_Nama_Email {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.Bagian_Get_In_Touch .Bagian_Nama_Email .Bagian_Nama{
+    margin-bottom: 25px;
+}
+
+.Bagian_Get_In_Touch .Bagian_Nama_Email .Bagian_Nama input{
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 40px;
+}
+
+.Bagian_Get_In_Touch .Bagian_Nama_Email .Bagian_Email{
+    margin-left: 305px;
+    margin-top: -73px;
+}
+
+.Bagian_Get_In_Touch .Bagian_Nama_Email .Bagian_Email input{
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 40px;
+}
+
+.Bagian_Get_In_Touch .Bagian_Nama_Email .Bagian_Subject{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.Bagian_Get_In_Touch .Bagian_Nama_Email .Bagian_Subject input{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 345px;
+    font-size: 20px;
+}
+
+.Bagian_Get_In_Touch .Bagian_Tombol_Send button{
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 0px;
+    border-color: transparent;
+    background-color: aquamarine;
+    color: white;
+    margin-bottom: 100px;
+}
+
+.Bagian_Get_In_Touch .Bagian_Tombol_Send button:hover{
+    background-color: crimson;
+}
+
+.Bagian_Informasi{
+    margin-left: 700px;
+    margin-top: -700px;
+    position: absolute;
+}
+
+.Bagian_Informasi .Alamat img{
+    width: 60px;
+    height: 60px;
+    margin-bottom: 25px;
+    margin-top: 5px;
+}
+
+.Bagian_Informasi .Alamat h3{
+    margin-left: 70px;
+    margin-top: -75px;
+    font-size: 18px;
+    font-family: monospace;
+}
+
+.Bagian_Informasi .Alamat p{
+    margin-left: 70px;
+    margin-bottom: 25px;
+    color: grey;
+    font-size: 16px;
+    font-family: cursive;
+}
+
+.Bagian_Informasi .Nomor_Telepon img{
+    width: 60px;
+    height: 60px;
+    margin-top: 5px;
+}
+
+.Bagian_Informasi .Nomor_Telepon h3{
+    margin-left: 70px;
+    margin-top: -55px;
+    font-size: 18px;
+    font-family: monospace;
+}
+
+.Bagian_Informasi .Nomor_Telepon p{
+    margin-left: 70px;
+    margin-bottom: 25px;
+    color: grey;
+    font-size: 16px;
+    font-family: cursive;
+}
+
+.Bagian_Informasi .Alamat_Email img{
+    width: 60px;
+    height: 60px;
+    margin-top: 15px;
+}
+
+.Bagian_Informasi .Alamat_Email h3{
+    margin-left: 70px;
+    margin-top: -60px;
+    font-size: 18px;
+    font-family: monospace;
+}
+
+.Bagian_Informasi .Alamat_Email p{
+    margin-left: 70px;
+    color: grey;
+    font-size: 16px;
+    font-family: cursive;
+}
+
+.Footer_Kiri1{
+	margin-top: 40px;
+    background-color:darkblue;
+    height: 500px;
+}
